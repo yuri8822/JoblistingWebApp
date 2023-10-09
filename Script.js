@@ -166,8 +166,3 @@ function filterContent()
         }
     });
 }
-
-function addJob()
-{
-    
-}

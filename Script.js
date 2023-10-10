@@ -99,11 +99,13 @@ function displayJobInformation(jobTitle, tags, jobType, jobLocation, skills)
 {
   var jobPopupContent = `
     <div class="popup" id = "info">
-      <h2>${jobTitle}</h2>
-      <p><strong>Tags:</strong> ${tags.join(', ')}</p>
-      <p><strong>Job Type:</strong> ${jobType}</p>
-      <p><strong>Job Location:</strong> ${jobLocation}</p>
-      <p><strong>Skills:</strong> ${skills.join(', ')}</p>
+      <div class="infoBox">
+        <h2>${jobTitle}</h2>
+        <p><strong>Tags:</strong> ${tags.join(', ')}</p>
+        <p><strong>Job Type:</strong> ${jobType}</p>
+        <p><strong>Job Location:</strong> ${jobLocation}</p>
+        <p><strong>Skills:</strong> ${skills.join(', ')}</p>
+      </div>    
     </div>
   `;
 
